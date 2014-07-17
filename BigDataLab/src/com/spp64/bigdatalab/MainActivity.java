@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
 				i.putExtra("Action", "create");
 				startActivity(i);*/
 				new Task()
-				.execute("http://134.193.136.147:8080/HbaseWS/jaxrs/generic/hbaseCreate/NewTableData/GeoLocation:Date:Accelerometer");
+				.execute("http://134.193.136.147:8080/HbaseWS/jaxrs/generic/hbaseCreate/HelloHello/GeoLocation:Date:Accelerometer");
 			}
 		});
 
@@ -59,7 +59,7 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 
 				new Task()
-				.execute("http://134.193.136.147:8080/HbaseWS/jaxrs/generic/hbaseCreate/Blah101/GeoLocation:Date:Accelerometer");
+				.execute("http://134.193.136.147:8080/HbaseWS/jaxrs/generic/hbaseInsert/HelloHello/-home-group9-sensortag.txt/GeoLocation:Date:Accelerometer");
 			}
 		});
 
@@ -88,7 +88,7 @@ public class MainActivity extends Activity {
 				 */
 
 				new Task()
-				.execute("http://134.193.136.147:8080/HbaseWS/jaxrs/generic/hbaseRetrieveAll/Blah101");
+				.execute("http://134.193.136.147:8080/HbaseWS/jaxrs/generic/hbaseRetrieveAll/HelloHello");
 			}
 		});
 
@@ -99,7 +99,7 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 
 				new Task()
-				.execute("http://134.193.136.147:8080/HbaseWS/jaxrs/generic/hbasedeletel/Blah101");
+				.execute("http://134.193.136.147:8080/HbaseWS/jaxrs/generic/hbasedeletel/HelloHello");
 			}
 		});
 
